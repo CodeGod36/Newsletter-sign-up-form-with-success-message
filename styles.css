@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(234, 29%, 20%);
+}
+
+.body1{
+  padding: 20%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+.attribution {
+  color: black;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Roboto-Bold";
+  color: hsl(234, 29%, 20%);
+  font-size: 60px;
+  font-weight: 400, 700;
+}
+strong{
+  font-family: "Roboto-Bold";
+  color: hsl(234, 29%, 20%);
+  font-size: 17px;
+  font-weight: 500, 800;
+}
+
+h2 {
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  font-weight: 400, 700;
+  color: hsl(235, 18%, 26%);
+  margin-left: 10px;
+}
+
+input {
+  border-radius: 5px;
+  border-color: hsl(231, 7%, 60%);
+  border-style: solid;
+}
+.mainContainer {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.sidePic {
+  float: right;
+  margin-left: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: hsl(0, 0%, 100%);
+  padding: 40px;
+  border-radius: 40px;
+}
+@media (max-width: 375px) {
+  .mainContainer {
+    flex-direction: column; /* Change flex-direction to stack elements vertically */
+  }
+
+  .container{
+    flex-direction: column;
+    padding:0%;
+  }
+
+  .sidePic {
+    float: none; /* Remove the float */
+    margin-left: 0; /* Reset margin */
+    margin-top: 20px; /* Add margin to move it below the form */
+  }
+}
+li {
+  list-style: none;
+  padding-top: 10px;
+}
+ul {
+  padding-bottom: 1em;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.svg2 {
+  padding-bottom: 20px;
+}
+.mainForm {
+  padding: 10px 20px 10px 20px;
+  padding-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+label {
+  color: hsl(235, 18%, 26%);
+  font-size: 12px;
+  font-weight: 800;
+  font-family: "Roboto-Regular";
+  padding-top: 0.1em;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.error-message {
+  color: tomato;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 800;
+  font-family: "Roboto-Regular";
+  top: 1.1em; /* Adjust the top position as needed */
+  right: 0; /* Position on the opposite end */
+  transform: translateY(-100%); /* Move it above the input */
+}
+
+.item {
+  padding: 10px;
+  width: 90%;
+  cursor: pointer;
+}
+.btn {
+  padding: 15px;
+  width: 95%;
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border-style: none;
+  font-family: "Roboto-Regular";
+  font-size: 13px;
+  font-weight: 1000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+
+form {
+  display: block;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15%;
+  padding: 8%;
+  border-radius: 50px;
+  align-items: flex-start;
+}
+
+.mainBtn {
+  margin: 10px;
+  padding-top: 20px;
+  width: 97%;
+}
+a {
+  text-decoration: none;
+  border-style: none;
+}
+.btn1 {
+  width: 100%;
+  padding: 15px;
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  border-style: none;
+  font-family: "Roboto-Regular";
+  font-size: 13px;
+  font-weight: 1000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn1:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+
+.section {
+  width: 97%;
+}
+
+.error-input{
+  border: 1px solid Tomato;
+}
+
+
